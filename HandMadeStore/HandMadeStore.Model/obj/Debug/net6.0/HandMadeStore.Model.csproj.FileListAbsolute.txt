@@ -1,0 +1,12 @@
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\bin\Debug\net6.0\HandMadeStore.Model.deps.json
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\bin\Debug\net6.0\HandMadeStore.Model.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\bin\Debug\net6.0\HandMadeStore.Model.pdb
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\obj\Debug\net6.0\HandMadeStore.Model.csproj.AssemblyReference.cache
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\obj\Debug\net6.0\HandMadeStore.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\obj\Debug\net6.0\HandMadeStore.Model.AssemblyInfoInputs.cache
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\obj\Debug\net6.0\HandMadeStore.Model.AssemblyInfo.cs
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\obj\Debug\net6.0\HandMadeStore.Model.csproj.CoreCompileInputs.cache
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\obj\Debug\net6.0\HandMadeStore.Model.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\obj\Debug\net6.0\refint\HandMadeStore.Model.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\obj\Debug\net6.0\HandMadeStore.Model.pdb
+D:\New folder\MVC\HandMadeStore\HandMadeStore.Model\obj\Debug\net6.0\ref\HandMadeStore.Model.dll

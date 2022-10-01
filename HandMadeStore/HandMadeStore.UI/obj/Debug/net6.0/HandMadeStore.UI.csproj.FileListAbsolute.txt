@@ -1,0 +1,130 @@
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\appsettings.Development.json
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\appsettings.json
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.staticwebassets.runtime.json
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.exe
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.deps.json
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.runtimeconfig.json
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.pdb
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Humanizer.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.DataAccess.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.Model.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.DataAccess.pdb
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.Model.pdb
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.csproj.AssemblyReference.cache
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.AssemblyInfoInputs.cache
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.AssemblyInfo.cs
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.csproj.CoreCompileInputs.cache
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.RazorAssemblyInfo.cache
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.RazorAssemblyInfo.cs
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\staticwebassets.build.json
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\staticwebassets.development.json
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\scopedcss\bundle\HandMadeStore.UI.styles.css
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\scopedcss\projectbundle\HandMadeStore.UI.bundle.scp.css
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.csproj.CopyComplete
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\refint\HandMadeStore.UI.dll
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.pdb
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.genruntimeconfig.cache
+D:\New folder\MVC\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\ref\HandMadeStore.UI.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.csproj.AssemblyReference.cache
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.AssemblyInfoInputs.cache
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.AssemblyInfo.cs
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.csproj.CoreCompileInputs.cache
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.RazorAssemblyInfo.cache
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.RazorAssemblyInfo.cs
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\refint\HandMadeStore.UI.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.pdb
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\appsettings.json
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.staticwebassets.runtime.json
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.exe
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.deps.json
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.runtimeconfig.json
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.UI.pdb
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.DataAccess.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.Model.dll
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.DataAccess.pdb
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\HandMadeStore.Model.pdb
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\scopedcss\bundle\HandMadeStore.UI.styles.css
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\scopedcss\projectbundle\HandMadeStore.UI.bundle.scp.css
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.csproj.CopyComplete
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.genruntimeconfig.cache
+C:\Users\AL_hamd\Desktop\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\ref\HandMadeStore.UI.dll
