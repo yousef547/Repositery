@@ -25,6 +25,11 @@ namespace HandMadeStore.DataAccess.Repository
             _dbSet.Add(entity);
         }
 
+        public void ClearChangeTrackin()
+        {
+            _context.ChangeTracker.Clear();
+        }
+
         public IEnumerable<T> GetAll()
         {
             IQueryable<T> query = _dbSet.AsQueryable();
@@ -34,7 +39,7 @@ namespace HandMadeStore.DataAccess.Repository
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter)
         {
             IQueryable<T> query = _dbSet.AsQueryable();
-            query.Where(filter);
+            query = query.Where(filter);
             return query.FirstOrDefault();
         }
 

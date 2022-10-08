@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5D0xZ96gTRExchThVigx4bmrE+XmwHKnyCRkLvGBfTWVERI/pEfq/cAceWj/xAajJj5LcXQcNwgvCKtTjs0ngA==",
+  "dgSpecHash": "K1ivPfJ27ImtmDKFKS7R6K0ADvOFCh3yb8KQmgjbIS3AZ1LpwwKoErn0YO03JlRE9nf9Lp5oCfE4tNw9gqXcrQ==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\MVC\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj",
+  "projectFilePath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AL_hamd\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AL_hamd\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

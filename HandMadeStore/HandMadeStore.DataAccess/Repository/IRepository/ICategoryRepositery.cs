@@ -10,6 +10,5 @@ namespace HandMadeStore.DataAccess.Repository.IRepository
     public interface ICategoryRepositery : IRepository<Category>
     {
         void Update(Category category);
-        void Save();
     }
 }

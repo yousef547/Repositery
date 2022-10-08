@@ -2,21 +2,22 @@
 using HandMadeStore.DataAccess;
 using HandMadeStore.Models;
 using HandMadeStore.Data;
+using HandMadeStore.DataAccess.Repository.IRepository;
 
 namespace HandMadeStore.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(ApplicationDbContext context)
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Category> category = _context.Categories;
+            IEnumerable<Category> category = _unitOfWork.Category.GetAll();
             return View(category);
         }
 
@@ -33,9 +34,7 @@ namespace HandMadeStore.Controllers
         {
             if (!string.IsNullOrEmpty(category.Name))
             {
-                var duplicatedProduct = _context.Categories
-
-                    .FirstOrDefault(p => p.Name.ToLower() == category.Name.ToLower());
+                var duplicatedProduct = _unitOfWork.Category.GetFirstOrDefault(p => p.Name.ToLower() == category.Name.ToLower());
                 if (duplicatedProduct != null)
                 {
                     //ModelState.AddModelError(String.Empty, "This product name is duplicated.");
@@ -44,8 +43,8 @@ namespace HandMadeStore.Controllers
             }
             if (ModelState.IsValid)
             {
-                _context.Categories.Add(category);
-                _context.SaveChanges();
+                _unitOfWork.Category.Add(category);
+                _unitOfWork.Save();
                 TempData.Add("success", "product created Successfully");
                 return RedirectToAction("Index");
             }
@@ -60,7 +59,7 @@ namespace HandMadeStore.Controllers
             {
                 return NotFound();
             }
-            var category = _context.Categories.FirstOrDefault(p => p.Id == id);
+            var category = _unitOfWork.Category.GetFirstOrDefault(p => p.Id == id);
             if (category == null)
             {
                 return NotFound();
@@ -72,12 +71,11 @@ namespace HandMadeStore.Controllers
         [HttpPost]
         public IActionResult Update(Category category)
         {
-            var productNameFromDb = _context.Categories.Find(category.Id).Name;
+            var productNameFromDb = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == category.Id).Name;
             if (!string.IsNullOrEmpty(category.Name))
             {
-                var duplicatedProduct = _context.Categories
-
-                    .FirstOrDefault(p => p.Name.ToLower() == category.Name.ToLower());
+                var duplicatedProduct = _unitOfWork.Category
+                    .GetFirstOrDefault(p => p.Name.ToLower() == category.Name.ToLower());
                 if (duplicatedProduct != null && duplicatedProduct.Name.ToLower() != productNameFromDb.ToLower())
                 {
                     //ModelState.AddModelError(String.Empty, "This product name is duplicated.");
@@ -86,10 +84,9 @@ namespace HandMadeStore.Controllers
             }
             if (ModelState.IsValid)
             {
-                _context.ChangeTracker.Clear();
-                _context.Categories
-   .Update(category);
-                _context.SaveChanges();
+                _unitOfWork.Category.ClearChangeTrackin();
+                _unitOfWork.Category.Update(category);
+                _unitOfWork.Save();
                 TempData.Add("success", "product updated Successfully");
 
                 return RedirectToAction("Index");
@@ -104,7 +101,7 @@ namespace HandMadeStore.Controllers
             {
                 return NotFound();
             }
-            var category = _context.Categories.FirstOrDefault(p => p.Id == id);
+            var category = _unitOfWork.Category.GetFirstOrDefault(p => p.Id == id);
             if (category == null)
             {
                 return NotFound();
@@ -116,14 +113,14 @@ namespace HandMadeStore.Controllers
         [HttpPost, ActionName("Delete")]
         public IActionResult DeletePost(int id)
         {
-            var category = _context.Categories.Find(id);
+            var category = _unitOfWork.Category.GetFirstOrDefault(p => p.Id == id);
 
             if (category == null)
             {
                 return NotFound();
             }
-            _context.Categories.Remove(category);
-            _context.SaveChanges();
+            _unitOfWork.Category.Remove(category);
+            _unitOfWork.Save();
             TempData.Add("success", "product deleted Successfully");
             return RedirectToAction("Index");
         }

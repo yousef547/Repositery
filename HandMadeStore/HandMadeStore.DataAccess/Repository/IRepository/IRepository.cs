@@ -16,6 +16,7 @@ namespace HandMadeStore.DataAccess.Repository.IRepository
         void RemoveRang(IEnumerable<T> entity);
 
         void Add(T entity);
+        void ClearChangeTrackin();
 
     }
 }

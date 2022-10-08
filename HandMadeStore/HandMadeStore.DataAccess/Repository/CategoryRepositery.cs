@@ -19,10 +19,10 @@ namespace HandMadeStore.DataAccess.Repository
 
         public ApplicationDbContext Context { get; }
 
-        public void Save()
-        {
-            _context.SaveChanges();
-        }
+        //public void Save()
+        //{
+        //    _context.SaveChanges();
+        //}
 
         public void Update(Category category)
         {

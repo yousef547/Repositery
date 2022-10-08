@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\MVC\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj": {}
+    "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\MVC\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj": {
+    "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\MVC\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj",
+        "projectUniqueName": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj",
         "projectName": "HandMadeStore.Utility",
-        "projectPath": "D:\\New folder\\MVC\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj",
+        "projectPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj",
         "packagesPath": "C:\\Users\\AL_hamd\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\MVC\\HandMadeStore\\HandMadeStore.Utility\\obj\\",
+        "outputPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AL_hamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
