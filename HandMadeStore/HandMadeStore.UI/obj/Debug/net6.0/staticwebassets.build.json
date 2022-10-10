@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/+l24UEH/K9REA8SYj/ytk7FVKvnyA5WIpnKNBt2hME=",
+  "Hash": "z4yUzJwMzFocprv3ZSpipTji4NTcssn7GwfhvVKySpw=",
   "Source": "HandMadeStore.UI",
   "BasePath": "_content/HandMadeStore.UI",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HandMadeStore.UI.bundle.scp.css"
     },
     {
+      "Identity": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "HandMadeStore.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\wwwroot\\",
+      "BasePath": "_content/HandMadeStore.UI",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
       "Identity": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\wwwroot\\css\\site.css",
       "SourceId": "HandMadeStore.UI",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\wwwroot\\images\\logo.png",
+      "SourceId": "HandMadeStore.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\wwwroot\\",
+      "BasePath": "_content/HandMadeStore.UI",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\wwwroot\\js\\site.js",

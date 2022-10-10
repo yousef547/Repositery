@@ -9,6 +9,10 @@ namespace HandMadeStore.DataAccess.Repository.IRepository
     public interface IUnitOfWork
     {
         ICategoryRepositery Category { get; }
+        IBrandRepositery Brand { get; }
+        IProductRepositery Product { get; }
+
+
         void Save();
     }
 }

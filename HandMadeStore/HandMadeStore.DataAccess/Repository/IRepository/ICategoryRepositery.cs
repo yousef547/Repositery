@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace HandMadeStore.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepositery : IRepository<Category>
+    public interface IProductRepositery : IRepository<Product>
     {
-        void Update(Category category);
+        void Update(Product product);
     }
 }

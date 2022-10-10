@@ -2,22 +2,24 @@
 using HandMadeStore.DataAccess;
 using HandMadeStore.Models;
 using HandMadeStore.Data;
+using HandMadeStore.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace HandMadeStore.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public ProductController(ApplicationDbContext context)
+        public ProductController(IUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Product> products = _context.Products;
-            return View(products);
+            IEnumerable<Product> product = _unitOfWork.Product.GetAll();
+            return View(product);
         }
 
         ////Create Product
@@ -33,8 +35,7 @@ namespace HandMadeStore.Controllers
         {
             if (!string.IsNullOrEmpty(product.Name))
             {
-                var duplicatedProduct = _context.Products
-                    .FirstOrDefault(p => p.Name.ToLower() == product.Name.ToLower());
+                var duplicatedProduct = _unitOfWork.Product.GetFirstOrDefault(p => p.Name.ToLower() == product.Name.ToLower());
                 if (duplicatedProduct != null)
                 {
                     //ModelState.AddModelError(String.Empty, "This product name is duplicated.");
@@ -43,8 +44,8 @@ namespace HandMadeStore.Controllers
             }
             if (ModelState.IsValid)
             {
-                _context.Products.Add(product);
-                _context.SaveChanges();
+                _unitOfWork.Product.Add(product);
+                _unitOfWork.Save();
                 TempData.Add("success", "product created Successfully");
                 return RedirectToAction("Index");
             }
@@ -53,29 +54,41 @@ namespace HandMadeStore.Controllers
 
         ////Update Product
         //GET
-        public IActionResult Update(int id)
+        public IActionResult Upsert(int? id)
         {
-            if (id == 0)
+            Product product = new();
+
+            IEnumerable<SelectListItem> CatogeryList = _unitOfWork.Category.GetAll().Select(
+                c => new SelectListItem { Text = c.Name, Value = c.Id.ToString() }
+                );
+
+            IEnumerable<SelectListItem> BrandList = _unitOfWork.Brand.GetAll().Select(
+                c => new SelectListItem { Text = c.Name, Value = c.Id.ToString() }
+                );
+            if (id == null || id == 0)
             {
-                return NotFound();
+                ViewBag.CatogeryList = CatogeryList;
+                ViewBag.BrandList = BrandList;
+
+                return View(product);
             }
-            var product = _context.Products.FirstOrDefault(p => p.Id == id);
-            if (product == null)
+            else
             {
-                return NotFound();
+                product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == id);
+                return View(product);
+
             }
-            return View(product);
         }
 
         //POST
         [HttpPost]
         public IActionResult Update(Product product)
         {
-            var productNameFromDb = _context.Products.Find(product.Id).Name;
+            var productNameFromDb = _unitOfWork.Product.GetFirstOrDefault(x => x.Id == product.Id).Name;
             if (!string.IsNullOrEmpty(product.Name))
             {
-                var duplicatedProduct = _context.Products
-                    .FirstOrDefault(p => p.Name.ToLower() == product.Name.ToLower());
+                var duplicatedProduct = _unitOfWork.Product
+                    .GetFirstOrDefault(p => p.Name.ToLower() == product.Name.ToLower());
                 if (duplicatedProduct != null && duplicatedProduct.Name.ToLower() != productNameFromDb.ToLower())
                 {
                     //ModelState.AddModelError(String.Empty, "This product name is duplicated.");
@@ -84,9 +97,9 @@ namespace HandMadeStore.Controllers
             }
             if (ModelState.IsValid)
             {
-                _context.ChangeTracker.Clear();
-                _context.Products.Update(product);
-                _context.SaveChanges();
+                _unitOfWork.Product.ClearChangeTrackin();
+                _unitOfWork.Product.Update(product);
+                _unitOfWork.Save();
                 TempData.Add("success", "product updated Successfully");
 
                 return RedirectToAction("Index");
@@ -101,7 +114,7 @@ namespace HandMadeStore.Controllers
             {
                 return NotFound();
             }
-            var product = _context.Products.FirstOrDefault(p => p.Id == id);
+            var product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == id);
             if (product == null)
             {
                 return NotFound();
@@ -110,17 +123,17 @@ namespace HandMadeStore.Controllers
         }
 
         //POST
-        [HttpPost,ActionName("Delete")]
+        [HttpPost, ActionName("Delete")]
         public IActionResult DeletePost(int id)
         {
-            var product = _context.Products.Find(id);
+            var product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == id);
 
-            if(product == null)
+            if (product == null)
             {
                 return NotFound();
             }
-            _context.Products.Remove(product);
-            _context.SaveChanges();
+            _unitOfWork.Product.Remove(product);
+            _unitOfWork.Save();
             TempData.Add("success", "product deleted Successfully");
             return RedirectToAction("Index");
         }

@@ -12,13 +12,15 @@ namespace HandMadeStore.DataAccess.Repository
     {
         private readonly ApplicationDbContext _context;
         public ICategoryRepositery Category { get; private set; }
-
+        public IProductRepositery Product { get; private set; }
+        public IBrandRepositery Brand { get; private set; }
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
             Category = new CategoryRepositery(context);
+            Brand = new BrandRepositery(context);
+            Product = new ProductRepository(context);
         }
-
         public void Save()
         {
             _context.SaveChanges();
