@@ -9,8 +9,8 @@ namespace HandMadeStore.DataAccess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {
-        IEnumerable<T> GetAll();
-        T GetFirstOrDefault(Expression<Func<T,bool>> filter);
+        IEnumerable<T> GetAll(string[] inCludeProperties = null);
+        T GetFirstOrDefault(Expression<Func<T,bool>> filter, string inCludeProperties = null);
         //void Update(T entity);  
         void Remove(T entity);
         void RemoveRang(IEnumerable<T> entity);

@@ -4,138 +4,169 @@ using HandMadeStore.Models;
 using HandMadeStore.Data;
 using HandMadeStore.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using HandMadeStore.Model.Models.ViewModel;
 
 namespace HandMadeStore.Controllers
 {
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IWebHostEnvironment _host;
 
-        public ProductController(IUnitOfWork unitOfWork)
+        public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment host)
         {
             _unitOfWork = unitOfWork;
+            _host = host;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Product> product = _unitOfWork.Product.GetAll();
-            return View(product);
+            return View();
         }
 
         ////Create Product
         //GET
-        public IActionResult Create()
-        {
-            return View();
-        }
+        //public IActionResult Create()
+        //{
+        //    return View();
+        //}
 
-        //POST
-        [HttpPost]
-        public IActionResult Create(Product product)
-        {
-            if (!string.IsNullOrEmpty(product.Name))
-            {
-                var duplicatedProduct = _unitOfWork.Product.GetFirstOrDefault(p => p.Name.ToLower() == product.Name.ToLower());
-                if (duplicatedProduct != null)
-                {
-                    //ModelState.AddModelError(String.Empty, "This product name is duplicated.");
-                    ModelState.AddModelError("name", "This product name is duplicated.");
-                }
-            }
-            if (ModelState.IsValid)
-            {
-                _unitOfWork.Product.Add(product);
-                _unitOfWork.Save();
-                TempData.Add("success", "product created Successfully");
-                return RedirectToAction("Index");
-            }
-            return View(product);
-        }
+        ////POST
+        //[HttpPost]
+        //public IActionResult Create(Product product)
+        //{
+        //    if (!string.IsNullOrEmpty(product.Name))
+        //    {
+        //        var duplicatedProduct = _unitOfWork.Product.GetFirstOrDefault(p => p.Name.ToLower() == product.Name.ToLower());
+        //        if (duplicatedProduct != null)
+        //        {
+        //            //ModelState.AddModelError(String.Empty, "This product name is duplicated.");
+        //            ModelState.AddModelError("name", "This product name is duplicated.");
+        //        }
+        //    }
+        //    if (ModelState.IsValid)
+        //    {
+        //        _unitOfWork.Product.Add(product);
+        //        _unitOfWork.Save();
+        //        TempData.Add("success", "product created Successfully");
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View(product);
+        //}
 
         ////Update Product
         //GET
         public IActionResult Upsert(int? id)
         {
-            Product product = new();
-
-            IEnumerable<SelectListItem> CatogeryList = _unitOfWork.Category.GetAll().Select(
+            ProductVM productVM = new()
+            {
+                Product = new(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(
                 c => new SelectListItem { Text = c.Name, Value = c.Id.ToString() }
-                );
-
-            IEnumerable<SelectListItem> BrandList = _unitOfWork.Brand.GetAll().Select(
+                ),
+                BrandList = _unitOfWork.Brand.GetAll().Select(
                 c => new SelectListItem { Text = c.Name, Value = c.Id.ToString() }
-                );
+                )
+            };
             if (id == null || id == 0)
             {
-                ViewBag.CatogeryList = CatogeryList;
-                ViewBag.BrandList = BrandList;
-
-                return View(product);
+                return View(productVM);
             }
             else
             {
-                product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == id);
-                return View(product);
+                productVM.Product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == id);
+                return View(productVM);
 
             }
         }
 
         //POST
         [HttpPost]
-        public IActionResult Update(Product product)
+        public IActionResult Upsert(ProductVM productVM, IFormFile file) 
         {
-            var productNameFromDb = _unitOfWork.Product.GetFirstOrDefault(x => x.Id == product.Id).Name;
-            if (!string.IsNullOrEmpty(product.Name))
-            {
-                var duplicatedProduct = _unitOfWork.Product
-                    .GetFirstOrDefault(p => p.Name.ToLower() == product.Name.ToLower());
-                if (duplicatedProduct != null && duplicatedProduct.Name.ToLower() != productNameFromDb.ToLower())
-                {
-                    //ModelState.AddModelError(String.Empty, "This product name is duplicated.");
-                    ModelState.AddModelError("name", "This product name is duplicated.");
-                }
-            }
             if (ModelState.IsValid)
             {
-                _unitOfWork.Product.ClearChangeTrackin();
-                _unitOfWork.Product.Update(product);
-                _unitOfWork.Save();
-                TempData.Add("success", "product updated Successfully");
+                string RootPath = _host.WebRootPath;
+                if (file != null)
+                {
+                    string fileName = Guid.NewGuid().ToString();
+                    var productsFolderPath = Path.Combine(RootPath, @"images\products");
+                    var extension = Path.GetExtension(file.FileName);
 
-                return RedirectToAction("Index");
+                    if(productVM.Product.ImageUrl != null)
+                    {
+                        var pathImage = Path.Combine(RootPath, productVM.Product.ImageUrl.TrimStart('\\'));
+                        if (System.IO.File.Exists(pathImage))
+                        {
+                            System.IO.File.Delete(pathImage);
+                        }
+                    }
+
+                    using (var fileStreams = new FileStream(Path.Combine(productsFolderPath,
+                        fileName + extension), FileMode.Create))
+                    {
+                        file.CopyTo(fileStreams);
+                    }
+                    productVM.Product.ImageUrl = @"\images\products\" + fileName + extension;
+
+                }
+                if (productVM.Product.Id == 0)
+                {
+                    //Create new product
+                    _unitOfWork.Product.Add(productVM.Product);
+                    _unitOfWork.Save();
+                    TempData["success"] = "Product created successfully";
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    //Update product
+                    _unitOfWork.Product.Update(productVM.Product);
+                    _unitOfWork.Save();
+                    TempData["success"] = "Product updated successfully";
+                    return RedirectToAction("Index");
+                }
+
             }
-            return View(product);
+            return View(productVM);
         }
 
-        //GET
-        public IActionResult Delete(int id)
+   
+   
+        #region API EndPoints
+        public IActionResult GetAllProducts()
         {
-            if (id == 0)
+            string[] arr = { "Category", "Brand"};
+            var products = _unitOfWork.Product.GetAll(arr);
+            return Json(new
             {
-                return NotFound();
-            }
-            var product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            return View(product);
+                data = products
+            });
         }
 
         //POST
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeletePost(int id)
+        [HttpDelete]
+        public IActionResult Delete(int? id)
         {
             var product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == id);
 
             if (product == null)
             {
-                return NotFound();
+                return Json(new {success=false,message="Error while deleting product"});
             }
+            string RootPath = _host.WebRootPath;
+            var pathImage = Path.Combine(RootPath, product.ImageUrl.TrimStart('\\'));
+            if (System.IO.File.Exists(pathImage))
+            {
+                System.IO.File.Delete(pathImage);
+            }
+
             _unitOfWork.Product.Remove(product);
             _unitOfWork.Save();
-            TempData.Add("success", "product deleted Successfully");
-            return RedirectToAction("Index");
+            return Json(new { success = true, message = "product delete succsessfully" });
+
         }
+
+        #endregion
     }
 }

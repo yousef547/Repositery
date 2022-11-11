@@ -2,24 +2,29 @@
 using HandMadeStore.Models;
 using System.Diagnostics;
 using HandMadeStore.UI.Models;
+using HandMadeStore.DataAccess.Repository.IRepository;
 
 namespace HandMadeStore.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IUnitOfWork _iunitOfWork;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork)
         {
             _logger = logger;
+            _iunitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            return View();
+            string[] arr = { "Category", "Brand" };
+            IEnumerable<Product> products = _iunitOfWork.Product.GetAll(arr);
+            return View(products);
         }
 
-        public IActionResult Privacy()
+        public IActionResult Details(int id)
         {
             return View();
         }

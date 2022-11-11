@@ -1,6 +1,7 @@
 ﻿using HandMadeStore.Data;
 using HandMadeStore.DataAccess.Repository.IRepository;
 using HandMadeStore.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace HandMadeStore.DataAccess.Repository
         public ProductRepository(ApplicationDbContext context) : base(context)
         {
             _context = context;
+            //_context.Products.Include(x => x.Brand).Include(x => x.Category);
         }
 
         public ApplicationDbContext Context { get; }

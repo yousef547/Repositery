@@ -30,16 +30,30 @@ namespace HandMadeStore.DataAccess.Repository
             _context.ChangeTracker.Clear();
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string[] inCludeProperties = null)
         {
             IQueryable<T> query = _dbSet.AsQueryable();
+            if(inCludeProperties != null)
+            {
+                foreach (var prop in inCludeProperties)
+                {
+                    query = query.Include(prop);
+                }
+            }
             return query.ToList();
         }
 
-        public T GetFirstOrDefault(Expression<Func<T, bool>> filter)
+        public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string inCludeProperties = null)
         {
             IQueryable<T> query = _dbSet.AsQueryable();
             query = query.Where(filter);
+            if (inCludeProperties != null)
+            {
+                foreach (var prop in inCludeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(prop);
+                }
+            }
             return query.FirstOrDefault();
         }
 

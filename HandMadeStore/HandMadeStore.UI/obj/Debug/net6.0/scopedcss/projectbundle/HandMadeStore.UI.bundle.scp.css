@@ -1,3 +1,9 @@
+/* _content/HandMadeStore.UI/Areas/Customer/Views/Home/index.cshtml.rz.scp.css */
+.card-img-top[b-7x21hshx21] {
+    width:80%;
+    align-self:center;
+    object-fit:contain;
+}
 /* _content/HandMadeStore.UI/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */

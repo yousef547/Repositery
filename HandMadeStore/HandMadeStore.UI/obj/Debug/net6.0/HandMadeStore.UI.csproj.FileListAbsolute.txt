@@ -400,3 +400,8 @@ D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\run
 D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\HandMadeStore.UI.MvcApplicationPartsAssemblyInfo.cs
+D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.UI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.UI\obj\Debug\net6.0\scopedcss\Areas\Customer\Views\Home\index.cshtml.rz.scp.css
