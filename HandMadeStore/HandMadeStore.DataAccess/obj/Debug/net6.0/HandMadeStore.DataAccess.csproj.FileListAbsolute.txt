@@ -32,3 +32,20 @@ D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\ne
 D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.pdb
 D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.genruntimeconfig.cache
 D:\New folder\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\ref\HandMadeStore.DataAccess.dll
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\bin\Debug\net6.0\HandMadeStore.DataAccess.deps.json
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\bin\Debug\net6.0\HandMadeStore.DataAccess.runtimeconfig.json
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\bin\Debug\net6.0\HandMadeStore.DataAccess.dll
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\bin\Debug\net6.0\HandMadeStore.DataAccess.pdb
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\bin\Debug\net6.0\HandMadeStore.Model.dll
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\bin\Debug\net6.0\HandMadeStore.Model.pdb
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.csproj.AssemblyReference.cache
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.AssemblyInfoInputs.cache
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.AssemblyInfo.cs
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.csproj.CoreCompileInputs.cache
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.csproj.CopyComplete
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.dll
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\refint\HandMadeStore.DataAccess.dll
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.pdb
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\HandMadeStore.DataAccess.genruntimeconfig.cache
+E:\MVC\Repositery\HandMadeStore\HandMadeStore.DataAccess\obj\Debug\net6.0\ref\HandMadeStore.DataAccess.dll

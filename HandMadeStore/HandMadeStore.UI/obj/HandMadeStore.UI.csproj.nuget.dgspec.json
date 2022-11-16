@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\HandMadeStore.UI.csproj": {}
+    "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\HandMadeStore.UI.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj": {
+    "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj",
+        "projectUniqueName": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj",
         "projectName": "HandMadeStore.DataAccess",
-        "projectPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\AL_hamd\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\obj\\",
+        "projectPath": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Hamdi\\.nuget\\packages\\",
+        "outputPath": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AL_hamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hamdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\HandMadeStore.Model.csproj": {
-                "projectPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\HandMadeStore.Model.csproj"
+              "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\HandMadeStore.Model.csproj": {
+                "projectPath": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\HandMadeStore.Model.csproj"
               }
             }
           }
@@ -61,7 +61,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\HandMadeStore.Model.csproj": {
+    "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\HandMadeStore.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\HandMadeStore.Model.csproj",
+        "projectUniqueName": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\HandMadeStore.Model.csproj",
         "projectName": "HandMadeStore.Model",
-        "projectPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\HandMadeStore.Model.csproj",
-        "packagesPath": "C:\\Users\\AL_hamd\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\obj\\",
+        "projectPath": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\HandMadeStore.Model.csproj",
+        "packagesPath": "C:\\Users\\Hamdi\\.nuget\\packages\\",
+        "outputPath": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AL_hamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hamdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,7 +122,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -130,21 +132,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\HandMadeStore.UI.csproj": {
+    "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\HandMadeStore.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\HandMadeStore.UI.csproj",
+        "projectUniqueName": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\HandMadeStore.UI.csproj",
         "projectName": "HandMadeStore.UI",
-        "projectPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\HandMadeStore.UI.csproj",
-        "packagesPath": "C:\\Users\\AL_hamd\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\obj\\",
+        "projectPath": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\HandMadeStore.UI.csproj",
+        "packagesPath": "C:\\Users\\Hamdi\\.nuget\\packages\\",
+        "outputPath": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AL_hamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hamdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,8 +160,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj": {
-                "projectPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj"
+              "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj": {
+                "projectPath": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.DataAccess\\HandMadeStore.DataAccess.csproj"
               }
             }
           }
@@ -195,7 +197,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -207,7 +210,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

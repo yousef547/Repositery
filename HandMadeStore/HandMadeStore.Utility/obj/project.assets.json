@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\AL_hamd\\.nuget\\packages\\": {}
+    "C:\\Users\\Hamdi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj",
+      "projectUniqueName": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj",
       "projectName": "HandMadeStore.Utility",
-      "projectPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj",
-      "packagesPath": "C:\\Users\\AL_hamd\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\obj\\",
+      "projectPath": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\HandMadeStore.Utility.csproj",
+      "packagesPath": "C:\\Users\\Hamdi\\.nuget\\packages\\",
+      "outputPath": "E:\\MVC\\Repositery\\HandMadeStore\\HandMadeStore.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AL_hamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hamdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

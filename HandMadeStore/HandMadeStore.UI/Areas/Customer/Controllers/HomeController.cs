@@ -3,6 +3,8 @@ using HandMadeStore.Models;
 using System.Diagnostics;
 using HandMadeStore.UI.Models;
 using HandMadeStore.DataAccess.Repository.IRepository;
+using HandMadeStore.DataAccess.Repository;
+using HandMadeStore.Model.Models;
 
 namespace HandMadeStore.Controllers
 {
@@ -26,7 +28,13 @@ namespace HandMadeStore.Controllers
 
         public IActionResult Details(int id)
         {
-            return View();
+            CardItem cartItem = new()
+            {
+                Count = 1,
+                ProductId = id,
+                Product = _iunitOfWork.Product.GetFirstOrDefault(p => p.Id == id, inCludeProperties: "Category,Brand")
+            };
+            return View(cartItem);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
